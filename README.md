@@ -46,21 +46,21 @@ Refer to the `cypress/e2e/` folder and navigate to the desired spec file to see 
 ## Starting Instructions
 
 * Setup project
-npm init i
+`npm init i`
 * Install Cypress
-npm intstall cypress --save -dev
+`npm intstall cypress --save -dev`
 * Open Cypress test runner
-npx cypress open
+`npx cypress open`
 * Run cypress tests from terminal
-npx cypress run
+`npx cypress run`
 * Run cypress tests from terminal in headed mode
-npx cypress run --headed
+`npx cypress run --headed`
 * Run specific test spec
-npx cypress run --spec cypress\e2e\mytest.cy.js
+`npx cypress run --spec cypress\e2e\mytest.cy.js`
 * Run test on specified browser
-npx cypress run --browser chrome
+`npx cypress run --browser chrome`
 * Run test on specified browser in headed mode
-npx cypress run --browser chrome --headed
+`npx cypress run --browser chrome --headed`
 
 
 ## Notes
