@@ -28,6 +28,9 @@ import 'cypress-mochawesome-reporter/register'; //cypress-mochawesome-reporter
 
 import 'cypress-plugin-api';
 
+const registerCypressGrep = require('@cypress/grep')
+registerCypressGrep()
+
 
 //https://stackoverflow.com/questions/53845493/cypress-uncaught-assertion-error-despite-cy-onuncaughtexception
 //prevents failure of test on console errors while loading website
